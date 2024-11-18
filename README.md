@@ -8,8 +8,6 @@ FlareBond is a cutting-edge cross-chain bridge designed to facilitate seamless a
 
 FlareBond deploys two gateway smart contracts, each operating on a respective blockchain to enable asset bridging:
 
-- **Ethereum (Sepolia Testnet):** `0x68eDBdF3614F802D6fF34a74A3DBF4f97910754a`
-- **Coston (Flare Testnet):** `0xF6b29cF96471e9bfbBb52623395759CA948f4554a`
 
 ### 2. ERC-20 Compatibility
 
@@ -18,7 +16,6 @@ FlareBond supports any ERC-20 token that adheres to a defined interface, enablin
 - **Minting:** Wrapped tokens are minted on the destination chain when assets are locked on the source chain.
 - **Burning:** Tokens are burned on the destination chain when assets are unlocked on the source chain.
 
-**Example Mintable Token Address on Coston:** `0xb2A0aD1146eC9843908836a2D166D5624AA32471`
 
 ### 3. Event-Driven Attestation Workflow
 
@@ -58,8 +55,4 @@ Future enhancements include:
 - **Additional Chain Support:** Expanding compatibility to other EVM and non-EVM chains.
 - **Enhanced Usability:** Creating user-friendly interfaces for simplified bridging requests and real-time tracking.
 
----
 
-### Get Started
-
-Visit our [GitHub Repository](#) to access the codebase, documentation, and detailed setup instructions.
